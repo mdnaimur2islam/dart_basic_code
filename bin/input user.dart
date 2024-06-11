@@ -1,4 +1,4 @@
-// importing dart:io file
+
 import 'dart:io';
 /*
 void main()
@@ -23,11 +23,16 @@ void main()
 }
 
  */
-import 'dart:io';
+
+
 
 void main() {
-  // Write your dart code from here
-  double? n = double.parse(stdin.readLineSync()!);
+  // Write your dart code from here
+  //input float number
+  print("enter float number");
+  double n = double.parse(stdin.readLineSync()!);
   double k=(9*n)/5 +32;
-  print("The temperature in Fahrenheit is: $k");
+  //print two decimal place by using toStringAsFixed(n)
+  print("The temperature in Fahrenheit is: ${k.toStringAsFixed(2)}");
 }
+
