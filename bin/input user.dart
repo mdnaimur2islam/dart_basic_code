@@ -27,7 +27,7 @@ void main()
 
 
 void main() {
-  /*
+
   // Write your dart code from here
   //input float number
   print("enter float number");
@@ -38,12 +38,11 @@ void main() {
   String? name=stdin.readLineSync();
   print("Hello, .$name.! Nice to meet you.");
 
-   */
 
-  List<int>li;
-  for(int i=0;i<3;i++){
-    li.add(int.parse(stdin.readByteSync()));
-  }
+
+
+
+
 
 
 
